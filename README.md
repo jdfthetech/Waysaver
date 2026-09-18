@@ -1,7 +1,7 @@
 # WaySaver
 
-THIS IS AI GENERATED USE AT YOUR OWN RISK
-CODE IS HERE TO TEST OTHER AGENTS ABILITY TO READ THIS CODE AND MAKE CHANGES
+# THIS IS AI GENERATED USE AT YOUR OWN RISK
+# CODE IS HERE TO TEST OTHER AGENTS ABILITY TO READ THIS CODE AND MAKE CHANGES
 
 WaySaver is a C++20 and Qt 6 screensaver service for Hyprland and other modern
 Wayland compositors that implement `ext-idle-notify-v1`. It supports image
