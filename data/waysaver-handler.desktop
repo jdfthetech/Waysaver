@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=WaySaver Action Handler
+NoDisplay=true
+Exec=waysaver %u
+MimeType=x-scheme-handler/waysaver;
+Terminal=false
+

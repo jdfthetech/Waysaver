@@ -1,0 +1,14 @@
+[Unit]
+Description=WaySaver Wayland screensaver service
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.waysaver.Service
+ExecStart=@CMAKE_INSTALL_FULL_BINDIR@/waysaver --daemon
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

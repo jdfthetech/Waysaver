@@ -1,0 +1,12 @@
+// Merge this module into the top-level object in ~/.config/waybar/config.jsonc,
+// then add "custom/waysaver" to modules-left, modules-center, or modules-right.
+"custom/waysaver": {
+    "exec": "waysaver --status-json",
+    "return-type": "json",
+    "interval": 5,
+    "tooltip": true,
+    "on-click": "waysaver --activate",
+    "on-click-right": "waysaver --settings",
+    "on-click-middle": "waysaver --deactivate"
+}
+

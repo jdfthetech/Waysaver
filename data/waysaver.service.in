@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.waysaver.Service
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/waysaver --daemon
+

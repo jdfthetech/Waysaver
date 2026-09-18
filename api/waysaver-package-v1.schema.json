@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waysaver.org/schema/package-v1.json",
+  "title": "WaySaver package manifest version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "name", "version", "saver"],
+  "properties": {
+    "schema": {"const": "org.waysaver.package/v1"},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{2,127}$"
+    },
+    "name": {"type": "string", "minLength": 1},
+    "version": {"type": "integer", "minimum": 1},
+    "saver": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "source"],
+      "properties": {
+        "type": {"enum": ["images", "executable"]},
+        "source": {"type": "string", "minLength": 1},
+        "slideSeconds": {"type": "integer", "minimum": 2}
+      }
+    }
+  }
+}

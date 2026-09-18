@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=WaySaver
+GenericName=Screensaver Settings
+Comment=Configure the Hyprland-compatible Wayland screensaver service
+Exec=waysaver --settings
+Icon=preferences-desktop-screensaver
+Categories=Qt;Settings;Utility;
+Terminal=false

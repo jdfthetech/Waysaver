@@ -1,0 +1,17 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {"Name": "WaySaver contributors"}
+    ],
+    "Category": "System Information",
+    "Description": "Control the compositor-neutral WaySaver service",
+    "Icon": "preferences-desktop-screensaver",
+    "Id": "org.waysaver.widget",
+    "License": "GPL-3.0-or-later",
+    "Name": "WaySaver",
+    "Version": "0.2.0",
+    "Website": "https://example.invalid/waysaver"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

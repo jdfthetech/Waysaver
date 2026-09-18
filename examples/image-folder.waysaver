@@ -1,0 +1,12 @@
+{
+  "schema": "org.waysaver.package/v1",
+  "id": "org.example.family-photos",
+  "name": "Family Photos",
+  "version": 1,
+  "saver": {
+    "type": "images",
+    "source": "photos",
+    "slideSeconds": 12
+  }
+}
+

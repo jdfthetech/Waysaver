@@ -1,0 +1,12 @@
+#custom-waysaver {
+    padding: 0 10px;
+}
+
+#custom-waysaver.active {
+    color: #89b4fa;
+}
+
+#custom-waysaver.waiting {
+    color: #a6adc8;
+}
+
